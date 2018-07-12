@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Java\jre7\bin;C:\Utilisateurs\A644358\AppData\Local\atom\bin;C:\adb;C:\Android;C:\Windows\System32;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\ProgramData\ComposerSetup\bin;C:\wamp64\bin\php\php7.0.10;C:\Program Files\Git\cmd;C:\Python27;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\HashiCorp\Vagrant\bin;C:\docker4wl\cwRsync;C:\docker4wl\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\wamp64\bin\php\php7.0.10;C:\wamp64\bin\php\php5.6.25;C:\Program Files\Microsoft VS Code\bin;C:\Utilisateurs\A644358\AppData\Roaming\Composer\vendor\bin;C:\Utilisateurs\A644358\AppData\Local\GitHubDesktop\bin;C:\Utilisateurs\A644358\AppData\Local\Yarn\bin;C:\Utilisateurs\A644358\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.8.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "server-vue-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon src/app.js --exec  \"npm run lint && node\"",
+      "lint": "eslint src/**/*.js",
+      "lint:fix": "eslint src/**/*.js  --fix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "cors": "^2.8.4",
+      "express": "^4.16.3",
+      "morgan": "^1.9.0",
+      "nodemon": "^1.18.1"
+    },
+    "devDependencies": {
+      "eslint": "^5.1.0",
+      "eslint-config-standard": "^11.0.0",
+      "eslint-plugin-import": "^2.13.0",
+      "eslint-plugin-node": "^6.0.1",
+      "eslint-plugin-promise": "^3.8.0",
+      "eslint-plugin-standard": "^3.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 130
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c nodemon src/app.js --exec  "npm run lint && node"
+  Directory: c:\Utilisateurs\A644358\Documents\GitHub\Vue_Express_Test_001\server-vue-express
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:180:13)
+      at maybeClose (internal/child_process.js:936:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)

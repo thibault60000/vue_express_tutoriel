@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Java\jre7\bin;C:\Utilisateurs\A644358\AppData\Local\atom\bin;C:\adb;C:\Android;C:\Windows\System32;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\ProgramData\ComposerSetup\bin;C:\wamp64\bin\php\php7.0.10;C:\Program Files\Git\cmd;C:\Python27;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\HashiCorp\Vagrant\bin;C:\docker4wl\cwRsync;C:\docker4wl\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\wamp64\bin\php\php7.0.10;C:\wamp64\bin\php\php5.6.25;C:\Program Files\Microsoft VS Code\bin;C:\Utilisateurs\A644358\AppData\Roaming\Composer\vendor\bin;C:\Utilisateurs\A644358\AppData\Local\GitHubDesktop\bin;C:\Utilisateurs\A644358\AppData\Local\Yarn\bin;C:\Utilisateurs\A644358\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.8.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "c:\\Utilisateurs\\A644358\\Documents\\GitHub\\Vue_Express_Test_001"
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
