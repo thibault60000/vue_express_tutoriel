@@ -65,3 +65,29 @@
     et testez localhost:8081/status
     renvoie du json
     Télécharger le plugin Chrome : API Rest
+
+    + Commit + Push
+
+    COTE Client
+    npm install --save axios
+    
+    On change le server pour obtenir renvoyer un email (Cote Server)
+
+      app.post('/register', (req, res) => {
+        res.send({
+          message: `hello ${req.body.email} ! You'r registered`
+        })
+      })
+
+    Cote Client on créer le routing, on créer un composant Api(), un service
+    AuthenticationService et un composant Register sur lequel on appelle notre service
+
+    Ensuite, Ajoutons la BDD
+    http://docs.sequelizejs.com/manual/tutorial/models-definition.html
+    
+    COTE SERVER: 
+    npm install --save sequelize sqlite3  (@3.1.8)
+    importer, utiliser pour créer une configuration et un model
+    SEQUELIZE : ORM
+
+    V2 : 16"22
