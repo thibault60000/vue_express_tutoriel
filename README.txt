@@ -42,10 +42,10 @@
       { Si tout est ok }
 
       Modifier le /src/app.js
-         const express = require('express')
-   	 const bodyParser = require('body-paser')
-	 const cors = require('cors')
-	 const morgan = require('morgan')
+          const express = require('express')
+          const bodyParser = require('body-paser')
+          const cors = require('cors')
+          const morgan = require('morgan')
 
 	 const app = express()
 	 app.use(morgan('combine'))
@@ -54,3 +54,14 @@
 
 	 app.listen(process.env.PORT || 8081)
 
+
+
+  Après, ajoutez dans le app.js : 
+    app.get('/status', (req, res) => {
+      res.send({
+        message: 'hello world'
+      })
+    })
+    et testez localhost:8081/status
+    renvoie du json
+    Télécharger le plugin Chrome : API Rest
